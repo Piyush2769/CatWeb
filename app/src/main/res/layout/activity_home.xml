@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity">
+
+
+    <EditText
+        android:id="@+id/search_url_here"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_toStartOf="@+id/search"
+        android:ems="10"
+        android:hint="Enter Your Search here.."
+        android:inputType="textMultiLine"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#000"
+        android:text="Search"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/youtube_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="105dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Youtube"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/facebook_btn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/youtube_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Facebook"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/yahoo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/youtube_btn"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginEnd="29dp"
+        android:text="Yahoo" />
+
+    <Button
+        android:id="@+id/instagram_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/youtube_btn"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:text="instagram" />
+
+    <Button
+        android:id="@+id/snapchat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/instagram_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="133dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Snapchat"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/google_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/yahoo_btn"
+        android:layout_alignBottom="@+id/instagram_btn"
+        android:text="google"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+</RelativeLayout>
